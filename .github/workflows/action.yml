@@ -28,7 +28,7 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         run: |
-          kaggle datasets download -d jockeroika/atp-tennis-dataset-2000-2025 --unzip -p ./data
+          kaggle datasets download -d deepeshkansotia/banking-fraud-detection-and-risk-analytics-dataset --unzip -p ./data
 
       - name: Commit and Push if changed
         run: |
